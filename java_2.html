@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign in</title>
+    <style>
+      body {
+        margin: 0;
+        color: white;
+      }
+      form {
+        margin: 0 auto;
+        width: 40vh;
+        background-color: rgb(89, 89, 114);
+        padding: 4px 4px;
+      }
+
+      label {
+        display: block;
+        margin: 0.5rem;
+      }
+      input {
+        width: 100%;
+      }
+      h1,
+      h3 {
+        font-family: unbuntu;
+      }
+
+      h3,
+      p {
+        text-align: center;
+      }
+      .account {
+        color: orange;
+        text-decoration: none;
+      }
+      .forgot a {
+        color: orange;
+        text-decoration: none;
+        text-align: left;
+      }
+      .forgot {
+        text-align: right;
+        font-size: 12px;
+      }
+      fieldset {
+        border-style: none;
+      }
+
+      input {
+        height: 3.5vh;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 3px 0;
+      }
+      button {
+        width: 100%;
+        height: 5vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <form action="#">
+        <h1>grant.gov</h1>
+        <h3>Welcome back!</h3>
+        <label
+          >User id:<input
+            type="text"
+            name="userid"
+            id="user"
+            placeholder="User id or gmail"
+        /></label>
+        <label
+          >password:<input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Enter password"
+        /></label>
+        <p class="forgot"><a href="#">Forgot password?</a></p>
+        <fieldset>
+          <button type="button" class="btn btn-primary">Log in</button>
+        </fieldset>
+        <hr />
+
+        <p>
+          Don't have an account?<a
+            href="java.html"
+            target="blank"
+            class="account"
+          >
+            sign up</a
+          >
+        </p>
+      </form>
+    </header>
+  </body>
+</html>
